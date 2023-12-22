@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.login-container {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    background-color: #333333; 
+}
+
+.login-box h2 {
+   margin-bottom :20px; 
+   color:white; 
+   text-align:center; 
+}
+
+.textbox input {
+   width :100%; 
+   padding :10px; 
+   background:#f0f0f0; 
+   border:none ;outline:none ;color:black ;
+}
+
+.forgot-password, .signup {
+     color:white ;
+     display:inline-block ;
+     margin-top :10px ;
+ }
+
+.btn-login{
+     width :100% ;
+     background-color :orange ;border:none ;padding :10px ;cursor:pointer ;margin-top :20px ;
+ }
